@@ -312,7 +312,7 @@ height: auto;
         width: 40%;
     height: auto;
     }
-    
+
      body {font-size: 3rem;
       }
 
@@ -337,5 +337,35 @@ height: auto;
 
 
     }
+
+    /*MEDIA PRINT*/
+
+    @media print {
+
+
+        header {
+            display:none;
+        }
+    .social {display: none;}
+    .toTop{display: none;}
+         body {font-size: 2.5rem;
+          }
+    
+          table {margin-left: 25%;}
+    
+          iframe {display: none;}
+    
+        section {display:none; 
+        }
+       
+        aside div {
+            display:none;
+        }
+
+        .correlati {display: none;}
+
+        footer {display: none;}
+    }
+    
 
    
